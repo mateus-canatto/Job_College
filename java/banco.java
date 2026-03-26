@@ -1,3 +1,5 @@
+// o meu (aprendizado)
+/*
 public class banco{
     private double saldo;
     private double saque;
@@ -36,5 +38,56 @@ public class banco{
         conta2.deposito();
         conta2.consultarSaldo();
         
+    }
+}
+*/
+
+// do professor
+
+public class ContaBancaria {
+    private double saldo;
+
+    public ContaBancaria(){
+        saldo = 0.0;
+    }
+
+    public void sacar(double valor){
+        saldo = saldo - valor;
+    }
+
+    public void depositar(double valor){
+        saldo = saldo + valor;
+    }
+
+    public void mostrarSaldo(){
+        System.out.println("Valor do saldo é" + saldo);
+    }
+
+    public static void main(String[] args){
+    ContaBancaria c1 = new ContaBancaria();
+    ContaBancaria c2 = new ContaBancaria();
+    /*
+    outra forma:
+    declara e depois instancia
+    ContaBancaria c1, c2;
+    c1 = new ContaBancaria();
+    c2 = new ContaBancaria();
+    */
+    //depósito em c1
+    c1.mostrarSaldo();
+    c1.depositar(10.0);
+    c1.mostrarSaldo();
+    // saque em c1
+    c1.mostrarSaldo();
+    c1.sacar(2.0);
+    c1.mostrarSaldo();
+    // depósito na conta c2
+    c2.mostrarSaldo();
+    c2.depositar(50.0);
+    c2.mostrarSaldo();
+    // saque na conta c2
+    c2.mostrarSaldo();
+    c2.sacar(40.0);
+    c2.mostrarSaldo();
     }
 }
