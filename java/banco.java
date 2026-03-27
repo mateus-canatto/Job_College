@@ -44,10 +44,10 @@ public class banco{
 
 // do professor
 
-public class ContaBancaria {
+public class banco {
     private double saldo;
 
-    public ContaBancaria(){
+    public banco(){
         saldo = 0.0;
     }
 
@@ -64,14 +64,14 @@ public class ContaBancaria {
     }
 
     public static void main(String[] args){
-    ContaBancaria c1 = new ContaBancaria();
-    ContaBancaria c2 = new ContaBancaria();
+    banco c1 = new banco();
+    banco c2 = new banco();
     /*
     outra forma:
     declara e depois instancia
-    ContaBancaria c1, c2;
-    c1 = new ContaBancaria();
-    c2 = new ContaBancaria();
+    banco c1, c2;
+    c1 = new banco();
+    c2 = new banco();
     */
     //depósito em c1
     c1.mostrarSaldo();
