@@ -34,6 +34,9 @@ public class Calculadora1 {
         Calculadora1 calc3 = new Calculadora1(10, 35);
 
         System.out.println("Soma: ");
+        calc.setarValor1AposOperação();
+        calc2.setarValor1AposOperação();
+        calc3.setarValor1AposOperação();
         calc.somar();
         calc2.somar();
         calc3.somar();
