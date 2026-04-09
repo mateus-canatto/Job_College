@@ -34,13 +34,12 @@ public class ControlePedidos {
         }
 
         public void exibirResumo() {
-            System.out.println("======= RESUMO DO PEDIDO =======");
+            System.out.println("======= RESUMO =======");
             System.out.println("Cliente: " + cliente.nome);
             System.out.println("Email:   " + cliente.email);
             System.out.println("Produto: " + produto.nome);
             System.out.println("Qtd:     " + quantidade);
             System.out.println("Total:   R$ " + (produto.preco * quantidade));
-            System.out.println("================================");
         }
     }
 
