@@ -1,3 +1,4 @@
+package Motor;
 public class Motor {
     private boolean ligado;
     private int rpm;

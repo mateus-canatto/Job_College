@@ -1,3 +1,4 @@
+package Temperatura;
 public class Temperatura {
     private double valor;
 
