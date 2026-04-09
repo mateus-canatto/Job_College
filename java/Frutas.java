@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
-public class Main{
+public class Frutas{
 
     public static void main(String[] args){
         ArrayList<String> arr1 = new ArrayList<String>();
+        ArrayList<String> frutas = new ArrayList<>();
         arr1.add("Texto 1");
         arr1.add("Texto 2");
         arr1.add("Texto 3");
@@ -12,12 +13,7 @@ public class Main{
         System.out.println(arr1.get(2));
         arr1.set(1, "Novo valor da String");
         System.out.println(arr1);
-    }
-}
 
-public class Teste {
-    public static void main(String[] args){
-        ArrayList<String> frutas = new ArrayList<>();
         frutas.add("Maça");
         frutas.add("Banana");
         frutas.add("Laranja");
@@ -34,4 +30,5 @@ public class Teste {
         frutas.set(3, "Abacate");
         System.out.println("Frutas: " + frutas);
     }
+
 }
