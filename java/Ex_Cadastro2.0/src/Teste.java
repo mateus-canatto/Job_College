@@ -1,4 +1,4 @@
-public public class Teste {
+public class Teste {
     public static void main(String[] args){
         Turma t1 = new Turma("BES", "3");
         Turma t2 = new Turma("BEC", "2");
@@ -31,7 +31,4 @@ public public class Teste {
         System.out.println("------------------");
         t2.listarAlunos();
     }
-}
- {
-    
 }
