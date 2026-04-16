@@ -1,4 +1,4 @@
-package ControlePedidos;
+package RA1.ControlePedidos;
 public class ControlePedidos {
 
     public String nome;

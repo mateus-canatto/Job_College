@@ -1,4 +1,4 @@
-package Temperatura;
+package RA1.Temperatura;
 public class Temperatura {
     private double valor;
 

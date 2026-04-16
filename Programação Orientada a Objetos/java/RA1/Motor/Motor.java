@@ -1,4 +1,4 @@
-package Motor;
+package RA1.Motor;
 public class Motor {
     private boolean ligado;
     private int rpm;

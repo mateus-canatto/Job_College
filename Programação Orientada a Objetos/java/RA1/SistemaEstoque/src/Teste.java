@@ -1,4 +1,4 @@
-package SistemaEstoque.src;
+package RA1.SistemaEstoque.src;
 
 public class Teste {
     public static void main(String[] args){

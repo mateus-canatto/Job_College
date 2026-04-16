@@ -1,4 +1,4 @@
-package Calculadora;
+package RA1.Calculadora;
 // meu primeiro codigo em java
 
 public class Calculadora1 {

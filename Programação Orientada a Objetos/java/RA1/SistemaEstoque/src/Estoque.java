@@ -1,4 +1,4 @@
-package SistemaEstoque.src;
+package RA1.SistemaEstoque.src;
 
 import java.util.ArrayList;
 
